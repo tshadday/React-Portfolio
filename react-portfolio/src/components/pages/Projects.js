@@ -6,7 +6,7 @@ import LinkedIn from '../../images/LinkedIn.png'
 function Projects() {
     return(
         <div className="content">
-            <h1>Projects Page</h1>
+            <h1>My Projects</h1>
             <a href="https://github.com/tshadday" target="_blank">
                 <img src={GitHub} alt="GitHub"></img>
             </a>
