@@ -1,3 +1,23 @@
-body {
-    background-color: #0047ab;
+html {
+    background-color: navy;
+}
+
+.content {
+    background-color: navy;
+    color: #efefef;
+    /* Makes text have black outline */
+    text-shadow:        
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    background-image: url("../public/Banner2.jpg");
+    color: white;
+    padding: 30px;
 }

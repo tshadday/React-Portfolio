@@ -4,6 +4,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import NavTabs from './NavTabs';
+import '../App.css';
 
 function Body() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
