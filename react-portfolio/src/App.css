@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
 html {
     background-color: navy;
 }
@@ -20,4 +22,16 @@ header {
     background-image: url("../public/Banner2.jpg");
     color: white;
     padding: 30px;
+}
+
+.skills {
+    font-family: 'Raleway', sans-serif;
+    font-size:120px;
+    letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+        4px 4px #ff1f8f,
+        10px 10px #000000;
 }
