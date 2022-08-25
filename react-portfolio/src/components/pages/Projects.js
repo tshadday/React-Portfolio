@@ -7,6 +7,19 @@ function Projects() {
     return(
         <div className="content">
             <h1>My Projects</h1>
+
+            <div className='project' id='Troogle'>
+                <a href="https://gabefando.github.io/travel-website/index.html">
+                    <p>Troogle: A Travel Website</p>
+                </a>
+            </div>
+
+            <div className='project' id='UnsubHub'>
+                <a href="https://github.com/tshadday/Subscription-Tracker-Service">
+                    <p>Troogle: A Subscription Tracker Service</p>
+                </a>
+            </div>
+
             <a href="https://github.com/tshadday" target="_blank">
                 <img src={GitHub} alt="GitHub"></img>
             </a>
