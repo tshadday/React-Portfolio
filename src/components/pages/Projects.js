@@ -20,6 +20,12 @@ function Projects() {
                 </a>
             </div>
 
+            <div className='project' id='Paws-N-Play'>
+                <a href="https://github.com/tshadday/Paws-N-Play">
+                    <p>Paws N Play: A Pet Playdate Finder App</p>
+                </a>
+            </div>
+
             <a href="https://github.com/tshadday" target="_blank">
                 <img src={GitHub} alt="GitHub"></img>
             </a>
