@@ -16,7 +16,7 @@ function Projects() {
 
             <div className='project' id='UnsubHub'>
                 <a href="https://github.com/tshadday/Subscription-Tracker-Service">
-                    <p>Troogle: A Subscription Tracker Service</p>
+                    <p>UnsubHub: A Subscription Tracker Service</p>
                 </a>
             </div>
 

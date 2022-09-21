@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.1de01b11.css",
+    "main.css": "/React-Portfolio/static/css/main.224f67f2.css",
     "main.js": "/React-Portfolio/static/js/main.ba03a42a.js",
     "static/media/Troogle.png": "/React-Portfolio/static/media/Troogle.2214b3e60c65901a7e14.png",
     "static/media/Banner2.jpg": "/React-Portfolio/static/media/Banner2.849fd9535e78704d0c3d.jpg",
     "static/media/Pic_Me.png": "/React-Portfolio/static/media/Pic_Me.cda14eb9da4b8ebecdb7.png",
     "static/media/UnsubHub.png": "/React-Portfolio/static/media/UnsubHub.d4912e54b8b7bcee967d.png",
+    "static/media/Paws-N-Play.png": "/React-Portfolio/static/media/Paws-N-Play.70a89791416053cab766.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.1de01b11.css.map": "/React-Portfolio/static/css/main.1de01b11.css.map",
+    "main.224f67f2.css.map": "/React-Portfolio/static/css/main.224f67f2.css.map",
     "main.ba03a42a.js.map": "/React-Portfolio/static/js/main.ba03a42a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de01b11.css",
+    "static/css/main.224f67f2.css",
     "static/js/main.ba03a42a.js"
   ]
 }
