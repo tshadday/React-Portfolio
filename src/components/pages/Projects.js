@@ -1,37 +1,38 @@
 import React from 'react';
 import '../../App.css';
-import GitHub from '../../images/GitHub.png'
-import LinkedIn from '../../images/LinkedIn.png'
+import Footer from '../sections/footer'
 
 function Projects() {
     return(
         <div className="content">
             <h1>My Projects</h1>
 
-            <div className='project' id='Troogle'>
-                <a href="https://gabefando.github.io/travel-website/index.html">
-                    <p>Troogle: A Travel Website</p>
-                </a>
-            </div>
+            <div className='grid-container'>
+                <div className='project grid-item' id='Coeus'>
+                    <a href="https://Coeus.chat" target="_blank" rel="noreferrer">
+                        <p>Coeus by Data Fusion Specialists</p>
+                    </a>
+                </div>
 
-            <div className='project' id='UnsubHub'>
-                <a href="https://github.com/tshadday/Subscription-Tracker-Service">
-                    <p>UnsubHub: A Subscription Tracker Service</p>
-                </a>
-            </div>
+                <div className='project grid-item' id='Troogle'>
+                    <a href="https://gabefando.github.io/travel-website/index.html" target="_blank" rel="noreferrer">
+                        <p>Troogle: A Travel Website</p>
+                    </a>
+                </div>
 
-            <div className='project' id='Paws-N-Play'>
-                <a href="https://github.com/tshadday/Paws-N-Play">
-                    <p>Paws N Play: A Pet Playdate Finder App</p>
-                </a>
-            </div>
+                <div className='project grid-item' id='UnsubHub'>
+                    <a href="https://github.com/tshadday/Subscription-Tracker-Service" target="_blank" rel="noreferrer">
+                        <p>UnsubHub: A Subscription Tracker Service</p>
+                    </a>
+                </div>
 
-            <a href="https://github.com/tshadday" target="_blank">
-                <img src={GitHub} alt="GitHub"></img>
-            </a>
-            <a href="www.linkedin.com/in/tanner-shadday-7648211b8" target="_blank">
-                <img src={LinkedIn} alt="LinkedIn"></img>
-            </a>
+                <div className='project grid-item' id='Paws-N-Play'>
+                    <a href="https://github.com/tshadday/Paws-N-Play" target="_blank" rel="noreferrer">
+                        <p>Paws N Play: A Pet Playdate Finder App</p>
+                    </a>
+                </div>
+            </div>
+            <Footer />
         </div>
     )
 }

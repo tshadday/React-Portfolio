@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
 html {
-    background-color: navy;
+    background-color: #1F2833;
 }
 
 .content {
-    background-color: navy;
-    color: #efefef;
+    background-color: #1F2833;
+    color: #66FCF1;
     /* Makes text have black outline */
-    text-shadow:        
+    /* text-shadow:        
         0.07em 0 black,
         0 0.07em black,
         -0.07em 0 black,
-        0 -0.07em black;
+        0 -0.07em black; */
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-header {
-    background-image: url("../public/Banner2.jpg");
-    color: white;
-    padding: 30px;
+.content > * {
+    padding: 10px;
 }
 
 .skills {
@@ -34,6 +32,14 @@ header {
     text-shadow: 
         4px 4px #ff1f8f,
         10px 10px #000000;
+}
+
+.nav-tabs {
+    background-color: #45A29E;
+}
+
+.nav-item > a {
+    color: #66FCF1;
 }
 
 #Troogle {
@@ -75,6 +81,19 @@ header {
     background-size: cover;
 }
 
+#Coeus {
+    width: 500px;
+    height: 300px;
+    transition: 0.5s;
+    text-align: center;
+    background-image: url("./images/Coeus.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
 .project p{
     opacity: 0;
     transform: scale(0);
@@ -89,4 +108,14 @@ header {
 .project:hover p {
     opacity: 1;
     transform: scale(1);
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto;
+}
+
+.grid-container {
+    display: inline-grid;
 }

@@ -1,29 +1,16 @@
 import React from 'react';
 import '../../App.css';
-import GitHub from '../../images/GitHub.png'
-import LinkedIn from '../../images/LinkedIn.png'
+import Footer from '../sections/footer'
+import Resume_Page_1 from '../../images/Tanner_Shadday_Resume_1.png'
+import Resume_Page_2 from '../../images/Tanner_Shadday_Resume_2.png'
 
 function Resume() {
     return(
         <div className="content">
-            <h1>Skills</h1>
-            <div className='skills'>
-                <h3>JavaScript</h3>
-                <h3>React</h3>
-                <h3>Node.js</h3>
-                <h3>Express.js</h3>
-                <h3>MySQL</h3>
-                <h3>MongoDB</h3>
-                <h3>GitHub</h3>
-            </div>
-            <br></br>
-            <a href="https://drive.google.com/file/d/1CXRzBY8ZEcectPnHk09INXLtlBVqovhz/view?usp=sharing" target="_blank"><h3>View My Resume</h3></a>
-            <a href="https://github.com/tshadday" target="_blank">
-                <img src={GitHub} alt="GitHub"></img>
-            </a>
-            <a href="www.linkedin.com/in/tanner-shadday-7648211b8" target="_blank">
-                <img src={LinkedIn} alt="LinkedIn"></img>
-            </a>
+            <h1>My Resume</h1>
+            <img src={Resume_Page_1} alt="Resume page 1" height="75%" width="75%"/>
+            <img src={Resume_Page_2} alt="Resume page 2" height="75%" width="75%"/>
+            <Footer />
         </div>
     )
 }

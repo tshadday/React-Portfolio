@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.224f67f2.css",
-    "main.js": "/React-Portfolio/static/js/main.ba03a42a.js",
+    "main.css": "/React-Portfolio/static/css/main.d1c42416.css",
+    "main.js": "/React-Portfolio/static/js/main.d6bf56f0.js",
     "static/media/Troogle.png": "/React-Portfolio/static/media/Troogle.2214b3e60c65901a7e14.png",
-    "static/media/Banner2.jpg": "/React-Portfolio/static/media/Banner2.849fd9535e78704d0c3d.jpg",
     "static/media/Pic_Me.png": "/React-Portfolio/static/media/Pic_Me.cda14eb9da4b8ebecdb7.png",
+    "static/media/Coeus.png": "/React-Portfolio/static/media/Coeus.0909c65cd7f0ecd11f22.png",
     "static/media/UnsubHub.png": "/React-Portfolio/static/media/UnsubHub.d4912e54b8b7bcee967d.png",
     "static/media/Paws-N-Play.png": "/React-Portfolio/static/media/Paws-N-Play.70a89791416053cab766.png",
+    "static/media/Tanner_Shadday_Resume_1.png": "/React-Portfolio/static/media/Tanner_Shadday_Resume_1.fedfc9588c828706476b.png",
+    "static/media/Tanner_Shadday_Resume_2.png": "/React-Portfolio/static/media/Tanner_Shadday_Resume_2.d4feb4604a3747ef3684.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.224f67f2.css.map": "/React-Portfolio/static/css/main.224f67f2.css.map",
-    "main.ba03a42a.js.map": "/React-Portfolio/static/js/main.ba03a42a.js.map"
+    "main.d1c42416.css.map": "/React-Portfolio/static/css/main.d1c42416.css.map",
+    "main.d6bf56f0.js.map": "/React-Portfolio/static/js/main.d6bf56f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.224f67f2.css",
-    "static/js/main.ba03a42a.js"
+    "static/css/main.d1c42416.css",
+    "static/js/main.d6bf56f0.js"
   ]
 }

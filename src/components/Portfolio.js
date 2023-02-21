@@ -6,7 +6,6 @@ function Portfolio() {
 
     return (
         <div>
-            <header></header>
             <Body />
         </div>
     )
