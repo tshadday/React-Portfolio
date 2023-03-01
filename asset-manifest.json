@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d1c42416.css",
-    "main.js": "/React-Portfolio/static/js/main.a8061d8c.js",
+    "main.css": "/React-Portfolio/static/css/main.c6c21206.css",
+    "main.js": "/React-Portfolio/static/js/main.aba7c916.js",
     "static/media/Troogle.png": "/React-Portfolio/static/media/Troogle.2214b3e60c65901a7e14.png",
     "static/media/Pic_Me.png": "/React-Portfolio/static/media/Pic_Me.cda14eb9da4b8ebecdb7.png",
     "static/media/Coeus.png": "/React-Portfolio/static/media/Coeus.0909c65cd7f0ecd11f22.png",
@@ -9,12 +9,13 @@
     "static/media/Paws-N-Play.png": "/React-Portfolio/static/media/Paws-N-Play.70a89791416053cab766.png",
     "static/media/Tanner_Shadday_Resume_1.png": "/React-Portfolio/static/media/Tanner_Shadday_Resume_1.fedfc9588c828706476b.png",
     "static/media/Tanner_Shadday_Resume_2.png": "/React-Portfolio/static/media/Tanner_Shadday_Resume_2.d4feb4604a3747ef3684.png",
+    "static/media/favicon.ico": "/React-Portfolio/static/media/favicon.65ae48be457c651e9149.ico",
     "index.html": "/React-Portfolio/index.html",
-    "main.d1c42416.css.map": "/React-Portfolio/static/css/main.d1c42416.css.map",
-    "main.a8061d8c.js.map": "/React-Portfolio/static/js/main.a8061d8c.js.map"
+    "main.c6c21206.css.map": "/React-Portfolio/static/css/main.c6c21206.css.map",
+    "main.aba7c916.js.map": "/React-Portfolio/static/js/main.aba7c916.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c42416.css",
-    "static/js/main.a8061d8c.js"
+    "static/css/main.c6c21206.css",
+    "static/js/main.aba7c916.js"
   ]
 }
