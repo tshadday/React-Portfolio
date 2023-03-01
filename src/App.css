@@ -6,7 +6,7 @@ html {
 
 .content {
     background-color: #1F2833;
-    color: #66FCF1;
+    color: white;
     /* Makes text have black outline */
     /* text-shadow:        
         0.07em 0 black,
@@ -22,7 +22,7 @@ html {
     padding: 10px;
 }
 
-.skills {
+/* .skills {
     font-family: 'Raleway', sans-serif;
     font-size:120px;
     letter-spacing:0.1em;
@@ -32,14 +32,30 @@ html {
     text-shadow: 
         4px 4px #ff1f8f,
         10px 10px #000000;
-}
+} */
 
 .nav-tabs {
-    background-color: #45A29E;
+    background-color: #E7EDF3;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
 }
 
 .nav-item > a {
-    color: #66FCF1;
+    color: #4A4A4A;
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#icon {
+    position: absolute;
+    right: 10px;
+    max-height: fit-content;
 }
 
 #Troogle {

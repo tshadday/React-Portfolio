@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import favicon from '../images/favicon.ico'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -44,6 +45,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
+      </li>
+      <li>
+        <img src={favicon} alt="icon" id="icon" />
       </li>
     </ul>
   );
