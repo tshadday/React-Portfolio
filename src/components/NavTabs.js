@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li>
-        <img src={favicon} alt="icon" id="icon" />
+        <img className="d-none d-sm-block" src={favicon} alt="icon" id="icon" />
       </li>
     </ul>
   );
